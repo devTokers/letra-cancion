@@ -1,0 +1,43 @@
+.contenedor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0 15 112);
+}
+
+.contenedor-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  background-color: #b6c4d9fa; 
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: auto;
+}
+
+.contenedor-large {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.close-btn {
+  cursor: pointer;
+  background-color: rgb(250, 245, 245);
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 20px; 
+}
+
+.close-icon {
+  font-size: 30px;
+  color: white;
+}
